@@ -38,7 +38,7 @@ public void verifyTitle(WebDriver driver,String eTitle) {
 		Reporter.log("Pass:home page is displayed",true);
 	} catch (Exception e) {
 		Reporter.log("Fail:home page is not displyaed",true);
-		Assert.fail();
+        Assert.fail();	
 		
 	}
 }

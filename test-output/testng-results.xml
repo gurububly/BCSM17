@@ -5,10 +5,10 @@
       <![CDATA[Fail:home page is not displyaed]]>
     </line>
     <line>
-      <![CDATA[IMGpath:./photo/testValidLoginOaIdl$DATE(auto-allocated@0x1d8d0c20 (8 bytes)) {  double date@0=0.0}.png]]>
+      <![CDATA[IMGpath:./photo/testValidLoginOaIdl$DATE(auto-allocated@0x1e2a0c20 (8 bytes)) {  double date@0=0.0}.png]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18339" started-at="2017-12-26T18:48:28Z" finished-at="2017-12-26T18:48:46Z">
+  <suite name="Default suite" duration-ms="20356" started-at="2017-12-27T01:56:25Z" finished-at="2017-12-27T01:56:46Z">
     <groups>
       <group name="smoke">
         <method signature="ValidLogin.testValidLogin()[pri:1, instance:Script.ValidLogin@78e67e0a]" name="testValidLogin" class="Script.ValidLogin"/>
@@ -17,9 +17,9 @@
         <method signature="ValidLogin.testValidLogin()[pri:1, instance:Script.ValidLogin@78e67e0a]" name="testValidLogin" class="Script.ValidLogin"/>
       </group> <!-- login -->
     </groups>
-    <test name="Default test" duration-ms="18339" started-at="2017-12-26T18:48:28Z" finished-at="2017-12-26T18:48:46Z">
+    <test name="Default test" duration-ms="20356" started-at="2017-12-27T01:56:25Z" finished-at="2017-12-27T01:56:46Z">
       <class name="Script.ValidLogin">
-        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Script.ValidLogin@78e67e0a]" name="openApp" is-config="true" duration-ms="4700" started-at="2017-12-27T00:18:28Z" finished-at="2017-12-27T00:18:33Z">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Script.ValidLogin@78e67e0a]" name="openApp" is-config="true" duration-ms="6672" started-at="2017-12-27T07:26:25Z" finished-at="2017-12-27T07:26:32Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="FAIL" signature="testValidLogin()[pri:1, instance:Script.ValidLogin@78e67e0a]" name="testValidLogin" duration-ms="10691" started-at="2017-12-27T00:18:33Z" finished-at="2017-12-27T00:18:43Z">
+        <test-method status="FAIL" signature="testValidLogin()[pri:1, instance:Script.ValidLogin@78e67e0a]" name="testValidLogin" duration-ms="10893" started-at="2017-12-27T07:26:32Z" finished-at="2017-12-27T07:26:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -45,7 +45,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.ValidLogin@78e67e0a]" name="closeApp" is-config="true" duration-ms="2908" started-at="2017-12-27T00:18:43Z" finished-at="2017-12-27T00:18:46Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.ValidLogin@78e67e0a]" name="closeApp" is-config="true" duration-ms="2750" started-at="2017-12-27T07:26:43Z" finished-at="2017-12-27T07:26:46Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[IMGpath:./photo/testValidLoginOaIdl$DATE(auto-allocated@0x1d8d0c20 (8 bytes)) {  double date@0=0.0}.png]]>
+              <![CDATA[IMGpath:./photo/testValidLoginOaIdl$DATE(auto-allocated@0x1e2a0c20 (8 bytes)) {  double date@0=0.0}.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
