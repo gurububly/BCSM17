@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class XL {
 	//this is for getting the sheet information from the excel sheet
-public static String getCellValue(String sheet,String path,int r,int c) {
+public static String getCellValue(String path,String sheet,int r,int c) {
 	String v="";
 	try {
 		Workbook wb = WorkbookFactory.create(new FileInputStream(path));
