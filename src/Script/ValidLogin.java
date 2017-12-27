@@ -10,9 +10,9 @@ import page.LoginPage;
 public class ValidLogin extends BaseTest{
 @Test(priority=1,groups= {"smoke","login"})
 public void testValidLogin() {
-	String un=XL.getCellValue(SETTINGS_PATH, XL_PATH, 1, 0);
-	String pw=XL.getCellValue(SETTINGS_PATH, XL_PATH, 1, 1);
-	String eTitle=XL.getCellValue(SETTINGS_PATH, XL_PATH, 1, 2);
+	String un=XL.getCellValue( XL_PATH,"validLogin", 1, 0);
+	String pw=XL.getCellValue( XL_PATH,"validLogin" ,1, 1);
+	String eTitle=XL.getCellValue(XL_PATH,"validLogin", 1, 2);
 	
 	//enter valid username
 	LoginPage l=new LoginPage(driver);
